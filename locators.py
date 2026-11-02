@@ -51,8 +51,8 @@ class WebsiteLocators:
     STUFFINGS_SECTION_INACTIVE = (By.XPATH, ".//span[text()='Начинки']")
     
     # Локаторы для активных вкладок "Булки", "Соусы" и "Начинки"
-    BUNS_SECTION_ACTIVE = (By.XPATH, ".//span[text()='Булки']/ancestor::div[contains(@class, 'current')]")
-    SAUCES_SECTION_ACTIVE = (By.XPATH, ".//span[text()='Соусы']/ancestor::div[contains(@class, 'current')]")
-    STUFFINGS_SECTION_ACTIVE = (By.XPATH, ".//span[text()='Начинки']/ancestor::div[contains(@class, 'current')]")
+    BUNS_SECTION_ACTIVE = (By.XPATH, ".//span[text()='Булки']/ancestor::div[contains(@class, 'tab_tab_type_current')]")
+    SAUCES_SECTION_ACTIVE = (By.XPATH, ".//span[text()='Соусы']/ancestor::div[contains(@class, 'tab_tab_type_current')]")
+    STUFFINGS_SECTION_ACTIVE = (By.XPATH, ".//span[text()='Начинки']/ancestor::div[contains(@class, 'tab_tab_type_current')]")
     
     
